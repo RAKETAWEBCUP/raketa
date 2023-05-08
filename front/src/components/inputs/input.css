@@ -1,0 +1,36 @@
+
+.div-input{
+    /* background-color: aliceblue; */
+    margin-bottom: 5px;
+}
+.div-input label{
+    font-size: small;
+}
+.div-input .my-input{
+    display: flex;
+    align-items: center;
+    outline: 1px solid #E1E3E7;
+    border-radius: 7px;
+    height: 2.5em;
+    padding: 5px;
+    margin-top: 5px;
+}
+.my-input .icon-input{
+    border-right: 1px solid #c1c1c1;
+    min-width: 2em;
+    min-height: 1.5em;
+    padding: 3px 8px 3px 5px;
+    margin-right: 3px;
+    color: #c1c1c1;
+}
+
+.my-input input{
+    flex: 1;
+    height: 100%;
+    width: 10px !important;
+    background-color: transparent;
+}
+.my-input>input:required,.my-input>input:focus{
+    outline: none !important;
+    box-shadow: none;
+}

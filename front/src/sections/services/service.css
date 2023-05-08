@@ -1,0 +1,26 @@
+.container-service{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    /* background-color: whitesmoke; */
+}
+.container-service .section-top{
+    text-align: center;
+    padding: 2em;
+    width: 100%;
+    /* background-color: green; */
+}
+.container-service .section-top h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.container-service .section-bottom{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    /* background-color: red; */
+}

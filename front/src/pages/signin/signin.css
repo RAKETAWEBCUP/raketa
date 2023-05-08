@@ -1,0 +1,231 @@
+@media only screen and (max-width: 440px) {
+    .container-signin .div-middle{
+        padding: 1.5em !important;
+    }
+    .container-signin .div-middle .section-bottom{
+        padding: 0 2em !important;
+    }
+}
+.container-signin{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap-reverse;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(184,220,230,1) 100%);
+    height: 100vh;
+}
+.container-signin .div-middle{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 0vw;
+    width: 30em;
+    padding: 2em 3em;
+    border-radius: 1em;
+    background-color: #ffffffd8;
+    backdrop-filter: blur(15px);
+    /* background-color: red; */
+}
+
+.container-signin .div-middle .section-top{
+    flex: 1;
+    width: 100%;
+    padding-bottom: 1em;
+    /* height: 25em; */
+    /* background-color: green; */
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 2em 0 2em;
+    background-color: transparent;
+}
+
+
+/* ///////////INPUT/////////// */
+
+
+.login-form .div-input{
+    margin-bottom: 1em;
+}
+
+
+/* /////////////// */
+
+.submit-signin{
+    /* width: 100%; */
+    margin-top: 1em;
+    height: 3em;
+    border-radius: 10px;
+    color: white;
+    background-color: #0F172A;
+}
+#OR{
+    /* margin: 1em 0; */
+}
+#OR::before{
+    position: absolute;
+    content: "";
+    left: 2.5em;
+    height: 1px;
+    width: 10em;
+    margin: 10px 0 0 12px;
+    background: linear-gradient(100deg, rgba(255,255,255,0) 0%, #b6b6b6 100%); 
+}
+#OR::after{
+    position: absolute;
+    content: " ";
+    height: 1px;
+    width: 10em;
+    margin: 10px 0 0 1em;
+    background: linear-gradient(100deg, #b6b6b6 0%, rgba(255,255,255,0) 100%) !important; 
+}
+
+.container-signin .div-middle .section-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    padding: 2em;
+    width: 100%;
+    /* background-color: red; */
+}
+.container-signin .div-middle .section-bottom p{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+
+}
+.container-signin .div-middle .section-bottom .div-other-signin{
+    /* flex: 2; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+    padding-top: 2em;
+    /* background-color: yellow; */
+}
+
+.btn-link-other-signin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 3em;
+    margin-bottom: 1em;
+    border-radius: 10px;
+    background-color: #696969;
+}
+#google-btn{
+    outline: 1px solid #E1E3E7;
+    color: #000000;
+    background-color: #ffffff;
+}
+#facebook-btn{
+    color: #ffffff;
+    background-color: #1778F2;
+}
+.icon-other-signin{
+    height: 2em;
+    width: 2em;
+    margin-right: 1em;
+}
+
+/* /////////////// */
+
+.container-signin .div-right{
+    flex: 1;
+    position: relative;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 40em;
+    padding: 2em 5em; */
+    
+}
+.container-signin .div-right h1{
+    font-size: calc(3vmin + 10px);
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2em;
+}
+.container-signin .div-right img{
+    width: 35em;
+}
+
+img[alt="logo-project"]{
+    /* position: absolute; */
+    width: 15.5em;
+    height: 15em;
+    margin-bottom: -3em;
+}
+.container-signin .div-left{
+    flex: 1;
+    position: relative;
+    /* background-color: blue; */
+}
+.card-login{
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 0vw;
+    width: 30em;
+    /* width: 100%; */
+    padding: 2em 3em;
+    /* background-color: #ffffff; */
+}
+
+img[alt*="signin-img"]{
+    position: absolute;
+    object-fit: contain;
+}
+img[alt="signin-img-top-left"]{
+    top: -20em;
+    left: -15em;
+    transform: scaleX(-1);
+    rotate: -5deg;
+    /* background-color: red; */
+}
+img[alt="signin-img-bottom-left"]{
+    bottom: -5em;
+    /* transform: scaleX(-1); */
+    rotate: 10deg;
+    height: 20em;
+    width: 20em;
+    left: -2rem;
+    /* background-color: chocolate; */
+    /* height: 12em; */
+}
+
+img[alt="signin-img-top-right"]{
+    rotate: 10deg;
+    width: 5em;
+    top: -10em;
+    right: -10em;
+    /* background-color: yellowgreen; */
+    /* height: 5em; */
+}
+img[alt="signin-img-bottom-right"]{
+    bottom: 0em;
+    transform: scaleX(-1);
+    rotate: -30deg;
+    height: 20em;
+    width: 20em;
+    right: -13rem;
+    /* background-color: yellow; */
+}

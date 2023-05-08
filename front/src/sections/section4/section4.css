@@ -1,0 +1,24 @@
+.section-four{
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.sect4-left{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    position: relative;
+}
+.sect4-left img{
+    height: 24em;
+}
+.sect4-right{
+    background-color: transparent;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}

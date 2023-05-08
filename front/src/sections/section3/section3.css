@@ -1,0 +1,29 @@
+.section-three{
+    /* margin-top: 5em; */
+    /* margin-bottom: em; */
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.sect3-left{
+    flex: 1;
+    /* background-color: bisque; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.sect3-right{
+    flex: 1;
+    position: relative;
+    /* background-color: black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+img[alt*="sect3"]{
+    position: relative;
+    height: 23em
+}

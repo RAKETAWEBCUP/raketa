@@ -1,0 +1,8 @@
+.section-partenaire{
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5em 0;
+    border-bottom: 1px solid #D9D9E0;
+}

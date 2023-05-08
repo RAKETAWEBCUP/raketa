@@ -1,0 +1,76 @@
+@media only screen and (width <= 800px){
+    .sticky-row .sticky-left, .sticky-row .sticky-right{
+    padding: 1em !important;
+    /* background-color: black; */
+   } 
+}
+
+.container-service-sticky{
+    display: flex;
+    flex-direction: column;
+    /* padding: 0 7em; */
+    /* justify-content: center; */
+    /* background-color: yellow; */
+}
+.service-sticky-top{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.service-sticky-bottom{
+    /* position: relative; */
+    width: 100%;
+    /* background-color: seagreen; */
+}
+.sticky-row{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 2em 0;
+    margin-bottom: 2em;
+}
+.sticky-row .sticky-left{
+    /* background-color: wheat; */
+    padding-right: 5em;
+    padding-bottom: 5em;
+    flex: 1;
+    min-width: 35vw;
+}
+.sticky-row .sticky-left div{
+    /* background-color: yellowgreen; */
+    flex-grow: 1;
+    position: sticky;
+    top: calc(100vh/4);
+}
+.sticky-row .sticky-left div h1{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.sticky-row .sticky-left div p{
+    font-size: x-large;
+}
+
+.sticky-row .sticky-right div{
+    /* background-color: yellowgreen; */
+    flex-grow: 1;
+    position: sticky;
+    top: calc(100vh/4);
+}
+.sticky-row .sticky-right div h1{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.sticky-row .sticky-right div p{
+    font-size: x-large;
+}
+
+.sticky-row .sticky-right, .sticky-row .sticky-left{
+    flex: 1;
+    min-width: 25em;
+}
+
+img[alt="img-sticky"]{
+    object-fit: cover;
+    width: 100%;
+    /* height: 100vh; */
+}

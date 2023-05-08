@@ -1,0 +1,27 @@
+#sect6{
+    background-image: url('https://uploads-ssl.webflow.com/5d7142044df04fbb477795a2/61fe763e0c0928affe19efb0_Vector%20113.svg');
+    background-repeat: no-repeat;
+    background-position: left top;
+    margin: 7em auto !important;
+}
+.section-six{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 48%;
+    margin: auto;
+}
+.section-six p{
+    text-align: center;
+    font-size: x-large;
+    font-style: italic;
+    
+}
+#p-auteur{
+    margin: 0;
+    font-size: large;
+    color: #bdbdbd;
+
+}

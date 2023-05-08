@@ -1,0 +1,9 @@
+.simul {
+    background-image: url(../../assets/texture.png);
+    padding: 5rem 1.5rem 5rem 1.5rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
